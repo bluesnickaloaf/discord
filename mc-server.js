@@ -4,8 +4,8 @@ client.login('your token');
 
 var request = require('request');
 var mcCommand = '/minecraft'; // Command for triggering
-var mcIP = '123.123.123.123'; // Your MC server IP
-var mcPort = 1234; // Your MC server port
+var mcIP = 'memelords.hopto.org'; // Your MC server IP
+var mcPort = 25565; // Your MC server port
 
 client.on('message', message => {
     if (message.content === mcCommand) {
